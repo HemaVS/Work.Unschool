@@ -32,7 +32,7 @@ int main()
 for(int i=0;i<5;i++)
 {
     printf("\n Now printing the details of employee %d",i+1);
-    printf("\n Name of employee is %s",*e[i].name);
+    printf("\n Name of employee is %s", e[i].name);
     printf("\n Employee id is %d",*e[i].employeeid);
     printf("\n Years of experience is %d years",*e[i].experience);
     printf("\n Salary is %d /- ",*e[i].salary);
